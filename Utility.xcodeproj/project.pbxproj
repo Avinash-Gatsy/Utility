@@ -15,6 +15,7 @@
 		C84C593A1E41CFF2002F6F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84C59381E41CFF2002F6F05 /* LaunchScreen.storyboard */; };
 		C84C59451E41CFF2002F6F05 /* UtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C59441E41CFF2002F6F05 /* UtilityTests.swift */; };
 		C84C59501E41CFF2002F6F05 /* UtilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C594F1E41CFF2002F6F05 /* UtilityUITests.swift */; };
+		C84C59631E436669002F6F05 /* CornerRadiusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C59621E436669002F6F05 /* CornerRadiusButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C84C594B1E41CFF2002F6F05 /* UtilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84C594F1E41CFF2002F6F05 /* UtilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityUITests.swift; sourceTree = "<group>"; };
 		C84C59511E41CFF2002F6F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84C59621E436669002F6F05 /* CornerRadiusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadiusButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,12 @@
 		C84C592B1E41CFF2002F6F05 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				C84C59611E420227002F6F05 /* Utils */,
+				C84C59601E420220002F6F05 /* Resources */,
+				C84C595F1E4201F5002F6F05 /* Model */,
+				C84C595E1E4201ED002F6F05 /* View */,
+				C84C595D1E4201E7002F6F05 /* Controller */,
 				C84C592C1E41CFF2002F6F05 /* AppDelegate.swift */,
-				C84C592E1E41CFF2002F6F05 /* ViewController.swift */,
 				C84C59301E41CFF2002F6F05 /* Main.storyboard */,
 				C84C59361E41CFF2002F6F05 /* Assets.xcassets */,
 				C84C59381E41CFF2002F6F05 /* LaunchScreen.storyboard */,
@@ -126,6 +132,43 @@
 				C84C59511E41CFF2002F6F05 /* Info.plist */,
 			);
 			path = UtilityUITests;
+			sourceTree = "<group>";
+		};
+		C84C595D1E4201E7002F6F05 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C84C592E1E41CFF2002F6F05 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C84C595E1E4201ED002F6F05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C84C59621E436669002F6F05 /* CornerRadiusButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C84C595F1E4201F5002F6F05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C84C59601E420220002F6F05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C84C59611E420227002F6F05 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84C59631E436669002F6F05 /* CornerRadiusButton.swift in Sources */,
 				C84C592F1E41CFF2002F6F05 /* ViewController.swift in Sources */,
 				C84C592D1E41CFF2002F6F05 /* AppDelegate.swift in Sources */,
 				C84C59351E41CFF2002F6F05 /* Utility.xcdatamodeld in Sources */,
